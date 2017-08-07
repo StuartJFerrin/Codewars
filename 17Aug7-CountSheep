@@ -27,3 +27,11 @@ for (i=0; i < arrayOfSheep.length; i++) {
   }
   return total;
 }  
+
+
+/*Another solution
+
+function countSheeps(arrayOfSheeps) {
+  return arrayOfSheeps.filter(Boolean).length;
+}
+*/
